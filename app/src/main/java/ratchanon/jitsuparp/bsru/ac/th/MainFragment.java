@@ -45,6 +45,36 @@ public class MainFragment extends Fragment {
 
             }
         });
+        TextView textView1 = getView().findViewById(R.id.txtPagea);
+        textView1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+//               Replace Fragment
+                getActivity()
+                        .getSupportFragmentManager()
+                        .beginTransaction()
+                        .replace(R.id.layoutMainFragmant,new AFragment())
+                        .addToBackStack(null)
+                        .commit();
+
+            }
+        });
+        TextView textView2 = getView().findViewById(R.id.txtPageb);
+        textView2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+//               Replace Fragment
+                getActivity()
+                        .getSupportFragmentManager()
+                        .beginTransaction()
+                        .replace(R.id.layoutMainFragmant,new BFragment())
+                        .addToBackStack(null)
+                        .commit();
+
+            }
+        });
     }
 
     @Override

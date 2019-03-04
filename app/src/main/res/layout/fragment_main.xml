@@ -52,6 +52,30 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
+        <!--Pagea-->
+        <TextView
+            android:clickable="true"
+            android:id="@+id/txtPagea"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18sp"
+            android:text="Pagea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!--Pageb-->
+        <TextView
+            android:clickable="true"
+            android:id="@+id/txtPageb"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18sp"
+            android:text="Pageb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
 
     </LinearLayout>
 
